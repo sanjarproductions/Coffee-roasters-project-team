@@ -1,28 +1,86 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     max-width: 1280px;
     width: 100%;
     margin: auto;
 }
-.hero .text{
+
+.hero .text {
     position: absolute;
     top: 134px;
     left: 85px;
 }
 
-.work .container{
-    background: #2C343E;
-    border-radius: 10px;
-    padding: 120px 0px 0px 80px ;
-
+.block2 {
+    padding: 200px 0px;
 }
 
-.work .container .flex{
+.block2 .container {
+    background:
+        #2C343E;
+    border-radius: 10px;
+    padding: 120px 0px 0px 80px;
+}
+
+.block2 .container .flex {
     display: flex;
     justify-content: flex-start;
     gap: 90px;
 }
+
+.block2 .cosmetics {
+    max-width: 760px;
+    margin-bottom: 80px;
+}
+
+.block2 .cosmetics .round {
+    border-radius: 50%;
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+}
+
+.block2 .cosmetics .line {
+    height: 2px;
+    background: #FDD6BA;
+    width: 335px;
+}
+
+.block2 .i {
+    margin-bottom: 80px;
+}
+
+.block2 .i h3 {
+    font-size: 72px;
+    font-weight: 900;
+    color: #FDD6BA;
+    margin-bottom: 40px;
+}
+
+.block2 .i b {
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.block2 .i p {
+    margin-top: 42px;
+    max-width: 314px;
+    color: #ffffff;
+}
+
+.block2 .btn_aqua {
+    padding: 15px 30px;
+    font-size: 18px;
+    background: #66D2CF;
+    margin-top: 80px;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 900;
+}
+
