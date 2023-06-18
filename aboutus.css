@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  background: #FEFCF7;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+.container nav {
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.container nav .sayt-logo {
+  max-width: 236px;
+  height: 26px;
+}
+.container nav ul {
+  display: flex;
+  gap: 33px;
+  list-style-type: none;
+}
+.container nav ul li a {
+  text-decoration: none;
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888F;
+}
+.container nav .hamburger {
+  display: none;
+}
+.container .about-us {
+  max-width: 1280px;
+  margin: auto;
+  height: 450px;
+  background-image: url(./images/Bitmap\ \(3\).png);
+  margin-top: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 85px;
+}
+.container .about-us .about-us__text {
+  max-width: 445px;
+}
+.container .about-us .about-us__text h1 {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 24px;
+}
+.container .about-us .about-us__text p {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+.container .comintment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 1110px;
+  margin-top: 168px;
+  margin-top: 168px;
+}
+.container .comintment .comintment-img {
+  width: 445px;
+  background-image: url(./images/Bitmap@2x.jpg);
+  height: 520px;
+  background-size: cover;
+}
+.container .comintment .comintment-text {
+  max-width: 540px;
+}
+.container .comintment .comintment-text h2 {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 48px;
+  color: #333D4B;
+}
+.container .comintment .comintment-text p {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #333D4B;
+  opacity: 0.8;
+  margin-top: 30px;
+}
+.container .quality {
+  max-width: 1280px;
+  height: 474px;
+  display: flex;
+  align-items: center;
+  padding-left: 85px;
+  background-color: #2C343E;
+  border-radius: 10px;
+  margin: 0px auto;
+  margin-top: 256px;
+  position: relative;
+}
+.container .quality .quality-text {
+  max-width: 540px;
+}
+.container .quality .quality-text h2 {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+.container .quality .quality-text p {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+  margin-top: 32px;
+}
+.container .quality .quality-img {
+  width: 445px;
+  height: 474px;
+  background-image: url(./images/Bitmap\ \(2\).jpg);
+  position: absolute;
+  right: 85px;
+  bottom: 88px;
+}
+.container .our-partners {
+  max-width: 1045px;
+  margin: 168px auto;
+}
+.container .our-partners p {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+.container .our-partners .partners-information {
+  margin-top: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container .our-partners .partners-information div {
+  max-width: 348px;
+}
+.container .our-partners .partners-information div h3 {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-top: 45px;
+}
+.container .our-partners .partners-information div ul {
+  margin-top: 24px;
+  list-style-type: none;
+}
+.container .our-partners .partners-information div ul li {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+@media only screen and (max-width: 1205px) {
+  .container .quality {
+    width: 688px;
+    height: 488px;
+    justify-content: center;
+    padding: 0px 20px;
+    margin: 0px auto;
+    margin-top: 304px;
+  }
+  .container .quality .quality-text {
+    padding-top: 90px;
+    text-align: center;
+  }
+  .container .quality .quality-img {
+    width: 570px;
+    height: 320px;
+    background-image: url(./images/Bitmap\ \(3\).jpg);
+    background-size: cover;
+    bottom: 337px;
+    right: 58px;
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .container .comintment {
+    max-width: 689px;
+    margin-top: 144px;
+  }
+  .container .comintment .comintment-img {
+    width: 281px;
+    height: 470px;
+    background-image: url(./images/Bitmap.jpg);
+  }
+  .container .comintment .comintment-text {
+    max-width: 339px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container nav ul {
+    display: none;
+  }
+  .container nav .hamburger {
+    display: block;
+  }
+  .container .about-us {
+    padding-left: 58px;
+  }
+  .container .about-us .about-us__text {
+    max-width: 398px;
+  }
+  .container .comintment {
+    display: block;
+    margin: 120px auto;
+    max-width: 327px;
+  }
+  .container .comintment .comintment-text {
+    margin-top: 48px;
+  }
+  .container .quality {
+    width: 327px;
+    height: 509px;
+    margin-top: 198px;
+  }
+  .container .quality .quality-text h2 {
+    font-size: 28px;
+    line-height: 28px;
+    margin-top: 20px;
+  }
+  .container .quality .quality-img {
+    width: 279px;
+    height: 156px;
+    background-image: url(./images/Bitmap\ \(4\).png);
+    left: 25px;
+    top: -80px;
+  }
+  .container .our-partners p {
+    text-align: center;
+  }
+  .container .our-partners .partners-information {
+    display: block;
+  }
+  .container .our-partners .partners-information div {
+    margin: auto;
+    margin-top: 88px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 485px) {
+  .container .about-us {
+    justify-content: center;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .container .about-us .about-us__text {
+    text-align: center;
+  }
+}/*# sourceMappingURL=aboutus.css.map */
