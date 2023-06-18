@@ -1,28 +1,257 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     max-width: 1280px;
     width: 100%;
     margin: auto;
 }
-.hero .text{
+
+.hero .text {
     position: absolute;
     top: 134px;
     left: 85px;
 }
 
-.work .container{
-    background: #2C343E;
-    border-radius: 10px;
-    padding: 120px 0px 0px 80px ;
-
+.block2 {
+    padding: 200px 0px;
 }
 
-.work .container .flex{
+.block2 .container {
+    background:
+        #2C343E;
+    border-radius: 10px;
+    padding: 120px 0px 0px 80px;
+}
+
+.block2 .container .flex {
     display: flex;
     justify-content: flex-start;
     gap: 90px;
+}
+
+.block2 .cosmetics {
+    max-width: 760px;
+    margin-bottom: 80px;
+}
+
+.block2 .cosmetics .round {
+    border-radius: 50%;
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+}
+
+.block2 .cosmetics .line {
+    height: 2px;
+    background: #FDD6BA;
+    width: 335px;
+}
+
+.block2 .i {
+    margin-bottom: 80px;
+}
+
+.block2 .i h3 {
+    font-size: 72px;
+    font-weight: 900;
+    color: #FDD6BA;
+    margin-bottom: 40px;
+}
+
+.block2 .i b {
+    font-size: 32px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.block2 .i p {
+    margin-top: 42px;
+    max-width: 314px;
+    color: #ffffff;
+}
+
+.block2 .btn_aqua {
+    padding: 15px 30px;
+    font-size: 18px;
+    background: #66D2CF;
+    margin-top: 80px;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 900;
+}
+
+.subscribe-choise .flex {
+    display: flex;
+    gap: 125px;
+    align-items: flex-start;
+}
+
+.subscribe-choise .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.subscribe-choise .menu .item {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #83888F;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 255px;
+    opacity: 0.5;
+    transition: 300ms;
+}
+
+.subscribe-choise .menu .item:hover {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #83888F;
+    display: flex;
+    gap: 30px;
+    width: 255px;
+    opacity: 0.7;
+}
+
+.subscribe-choise .menu .item:last-child {
+    padding-bottom: 24px;
+    border-bottom: none;
+    display: flex;
+    gap: 30px;
+    width: 255px;
+}
+
+.subscribe-choise .menu .item p {
+    font-size: 24px;
+    font-weight: 900;
+    color: #333D4B;
+}
+
+.subscribe-choise .choises .title:first-child {
+    /* margin-top: 0px; */
+}
+
+.subscribe-choise .choises .title {
+    margin-top: 88px;
+}
+
+.subscribe-choise .choises .title h2:first-child {
+    margin-top: 0px;
+}
+
+.subscribe-choise .choises .title h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #83888F;
+    margin-bottom: 56px;
+    /* margin-top: 88px; */
+}
+
+.subscribe-choise .choises .box_1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 23px;
+    /* margin-bottom: 88px; */
+}
+
+.subscribe-choise .choises .item {
+    background: #F4F1EB;
+    padding: 32px 0px 0px 28px;
+    width: 228px;
+    height: 250px;
+    border-radius: 8px;
+    transition: 500ms ease-in-out;
+}
+
+.subscribe-choise .choises .item:hover {
+    background: #FDD6BA;
+}
+
+.subscribe-choise .choises .item h3 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 24px;
+
+}
+
+.subscribe-choise .choises .item h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    max-width: 172px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.subscribe-choise .choises .summary {
+    background: #2C343E;
+    color: #fff;
+    margin-top: 80px;
+    padding: 30px 0px 30px 60px;
+    width: 730px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 55px;
+
+}
+
+.subscribe-choise .choises .summary h4 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+
+.subscribe-choise .choises .summary h5 {
+    font-size: 24px;
+    max-width: 590px;
+    line-height: 40px;
+}
+
+.subscribe-choise .choises .summary span {
+    color: #0E8784;
+}
+
+.subscribe-choise .choises .create_plan {
+    background: #66D2CF;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 6px;
+    margin-right: -60px;
+}
+
+
+
+
+
+.footer{
+    margin-top: 160px;
+}
+.footer .container{
+    border-radius: 5px;
+
+}
+.footer .flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer .flex .flex_footer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+.footer ul{
+    display: flex;
+    gap: 33px;
+}
+.footer ul li {
+    opacity: 0.5;
+    font-size: 12px;
 }
